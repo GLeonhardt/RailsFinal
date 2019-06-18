@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  bought: false
+  price: 1.5
+  list: one
+
+two:
+  name: MyString
+  bought: false
+  price: 1.5
+  list: two
