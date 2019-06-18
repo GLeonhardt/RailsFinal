@@ -1,13 +1,8 @@
-<p id="notice"><%= notice %></p>
+<h1 Product %></h1>
 
 <p>
   <strong>Name:</strong>
   <%= @product.name %>
-</p>
-
-<p>
-  <strong>Bought:</strong>
-  <%= @product.bought %>
 </p>
 
 <p>
@@ -20,5 +15,6 @@
   <%= @product.list %>
 </p>
 
-<%= link_to 'Edit', edit_product_path(@product) %> |
-<%= link_to 'Back', products_path %>
+<%= link_to 'Edit', edit_list_product_path(@list, @product), class: 'btn btn-primary', role: :button %>
+<%= link_to 'Back', list_products_path, class: 'btn btn-outline-secondary', role: :button %>
+
